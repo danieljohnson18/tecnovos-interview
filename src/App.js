@@ -205,10 +205,6 @@ function App() {
             icons={tableIcons}
           />
           <MaterialTable
-            title="User data from remote source"
-            columns={columns}
-            data={data}
-            icons={tableIcons}
             editable={{
               onRowUpdate: (newData, oldData) =>
                 new Promise((resolve) => {
